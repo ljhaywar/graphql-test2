@@ -1,0 +1,29 @@
+{
+    "field_name": "verifyUserAge",
+    "function_name": "myCustomResolver",
+    "id": "5f08ba4e0eba268e3daa364e",
+    "input_type": {
+        "properties": {
+            "age": {
+                "type": "number"
+            }
+        },
+        "required": [
+            "age"
+        ],
+        "title": "VerifyUserAgeInput",
+        "type": "object"
+    },
+    "input_type_format": "custom",
+    "on_type": "Query",
+    "payload_type": {
+        "properties": {
+            "isOldEnough": {
+                "type": "boolean"
+            }
+        },
+        "title": "VerifyUserAgePayload",
+        "type": "object"
+    },
+    "payload_type_format": "custom"
+}
