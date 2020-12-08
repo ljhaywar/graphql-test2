@@ -1,0 +1,8 @@
+{
+    "field_name": "verifyUserAge6",
+    "function_name": "myCustomResolver",
+    "id": "5fcfb43899b7e2315137db8f",
+    "input_type_format": "",
+    "on_type": "Query",
+    "payload_type_format": ""
+}
